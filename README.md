@@ -1,5 +1,4 @@
 # gustavocsalvador.github.io
 My GitHub Page
 
-<a href="http://www.repostatus.org/#inactive"><img src="http://www.repostatus.org/badges/latest/inactive.svg" alt="Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows." /></a>
-
+<a href="http://www.repostatus.org/#wip"><img src="http://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." /></a>
