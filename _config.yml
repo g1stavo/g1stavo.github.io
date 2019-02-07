@@ -1,41 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# general configuration
+url: http://excentris.net
+baseurl: ''
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Gustavo de Castro Salvador
-email: gustavocsalvador@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I'm a bachelor degree student of Information Systems at Federal University Of Santa Catarina and in an internship of Quality Assurance Analyst at Linx+Neemu+Chaordic. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gustavocsalvador.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  gustavocsalvador
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  logo: "/images/compass.png"
+  # author will appear under the avatar (optional)
+  author: "Gustavo Castro"
+  # tagline will appear under the title (optional)
+  tagline: "Gustavo Castro"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
+  # Twitter @username (as defined by the Twitter Card specs)
+  twitter: ""
 
-# Build settings
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Dependencies
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+highlighter: rouge
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Permalinks
+permalink: pretty
