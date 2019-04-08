@@ -5,7 +5,6 @@ baseurl: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
   # author will appear under the avatar (optional)
   author: ""
   # tagline will appear under the title (optional)
