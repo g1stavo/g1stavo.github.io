@@ -1,6 +1,5 @@
 # general configuration
-url: http://excentris.net
-baseurl: ''
+url: https://g1stavo.me
 
 # compass configuration
 compass:
