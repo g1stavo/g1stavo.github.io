@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto Mono', sans-serif;
   color: #46433A;
-  background-color: #abf39d; }
+  background-color: #000000; }
 
 header,
 main {
@@ -16,7 +16,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #67c2bc;
+  color: #ff00e9;
   text-decoration: none; }
 
 a:hover {
@@ -49,7 +49,7 @@ since it must be aligned with the content */
   background-size: cover;
   border-radius: 50%;
   -moz-border-radius: 50%;
-  border: 2px solid #abf39d;
+  border: 2px solid #000000;
   box-shadow: 0 0 0 3px #46433A; }
 
 /*** author ***/
