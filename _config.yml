@@ -1,12 +1,15 @@
-# general configuration
 url: https://g1stavo.me
 
-# exclude
+compass:
+  author: ""
+  tagline: ""
+  include_content: true
+  include_analytics: false
+  twitter: ""
+
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-# Dependencies
 markdown: kramdown
 highlighter: rouge
 
-# Permalinks
 permalink: pretty
